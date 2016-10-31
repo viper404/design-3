@@ -63,7 +63,80 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 5, ../sass/style.scss */
+/* line 11, ../sass/style.scss */
 body {
   font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #3e3e3e;
+  background-color: #eeeeee;
+  width: 100%;
+}
+
+/* line 20, ../sass/style.scss */
+header {
+  padding: 0 1em;
+  background-color: #0ac285;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 24, ../sass/style.scss */
+header li {
+  float: left;
+}
+/* line 27, ../sass/style.scss */
+header li a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 1em;
+}
+/* line 35, ../sass/style.scss */
+header li:hover {
+  background-color: #09aa74;
+}
+
+/* line 43, ../sass/style.scss */
+.hero {
+  width: 100%;
+  min-width: 50em;
+  position: relative;
+  background-color: #333333;
+  z-index: 1;
+}
+/* line 50, ../sass/style.scss */
+.hero:after {
+  background: url("../images/hero-1-resized.jpg");
+  background-size: cover;
+  position: absolute;
+  content: "";
+  z-index: -1;
+  opacity: .2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+/* line 63, ../sass/style.scss */
+.hero h2 {
+  font-size: 6em;
+  font-weight: bold;
+  padding: 3em 0 1em 0;
+  text-transform: uppercase;
+  color: white;
+}
+/* line 71, ../sass/style.scss */
+.hero p {
+  max-width: 70%;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #cecece;
+  line-height: 1.4;
+  margin: 0 auto;
+  padding: 1em 0 8em 0;
+}
+/* line 80, ../sass/style.scss */
+.hero p span {
+  color: #0ac285;
 }
