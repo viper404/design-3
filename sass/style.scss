@@ -1,6 +1,7 @@
 @import "compass/reset";
 @import "compass/css3";
 @import "compass/utilities/";
+@import "font-awesome";
 
 $background-color: #eeeeee;
 $text-color: #3e3e3e;
@@ -81,4 +82,52 @@ header {
 			color: $heading-color;
 		}
 	}
+}
+
+@mixin section-title {
+	font-size: 2em;
+	text-transform: uppercase;
+	color: $heading-color;
+	padding: 2em 0;
+
+	&:after {
+		content: "";
+		display: block;
+		background-color: #cccccc;
+		width: 2em;
+		height: .2em;
+		margin: .4em auto;
+	}
+}
+
+.topics {
+	padding: 2em 0 4em 0;
+
+	h3 {
+		@include section-title;
+	}
+
+	li {
+		float: left;
+		width: 33.33%;
+
+		i {
+			font-size: 3em;
+		}
+
+		h4 {
+			font-size: 1.5em;
+			padding: 1em 0;
+			font-weight: bold;
+		}
+
+		p {
+			line-height: 1.4;
+			color: #6e6e6e;
+			padding: 0 8em;
+			margin-bottom: 4em;
+		}
+	}
+
+	@include clearfix;
 }
