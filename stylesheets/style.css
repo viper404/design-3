@@ -3809,12 +3809,13 @@ header li:hover {
 /* line 226, ../sass/style.scss */
 .show li .case {
   width: 60%;
+  margin-left: 35%;
 }
-/* line 231, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 .show li:hover .mask {
   top: 0;
 }
-/* line 236, ../sass/style.scss */
+/* line 237, ../sass/style.scss */
 .show li .mask {
   display: block;
   position: absolute;
@@ -3825,7 +3826,7 @@ header li:hover {
   background-color: #3e3e3e;
   opacity: .1;
 }
-/* line 247, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 .show li .information {
   position: absolute;
   background-color: #3e3e3e;
@@ -3840,17 +3841,17 @@ header li:hover {
   box-sizing: border-box;
   color: white;
 }
-/* line 261, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 .show li .information h3 {
   font-size: 2em;
   padding: 1em 0;
 }
-/* line 266, ../sass/style.scss */
+/* line 267, ../sass/style.scss */
 .show li .information .detail {
   position: relative;
   padding-top: 2em;
 }
-/* line 270, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 .show li .information .detail .avatar {
   position: absolute;
   width: 3em;
@@ -3860,25 +3861,25 @@ header li:hover {
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 278, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 .show li .information .detail p {
   padding: .5em 0 0 0;
   font-size: 1.5em;
 }
-/* line 283, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 .show li .information .detail .contact {
   margin-left: 4em;
 }
-/* line 286, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 .show li .information .detail .contact .name {
   font-weight: bold;
   margin-right: .5em;
 }
-/* line 291, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 .show li .information .detail .contact .role {
   color: #eeeeee;
 }
-/* line 296, ../sass/style.scss */
+/* line 297, ../sass/style.scss */
 .show li .information .detail .like {
   position: absolute;
   font-size: 2em;
@@ -3893,7 +3894,7 @@ header li:hover {
   border-radius: 100%;
   transition: all .3s ease-in-out;
 }
-/* line 310, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
 .show li .information .detail .like:hover {
   color: #0ac285;
   background-color: white;
