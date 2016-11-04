@@ -3796,3 +3796,106 @@ header li:hover {
   text-align: left;
   padding: .5em 2em;
 }
+
+/* line 217, ../sass/style.scss */
+.show li {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  position: relative;
+  height: 19em;
+  overflow: hidden;
+}
+/* line 226, ../sass/style.scss */
+.show li .case {
+  width: 60%;
+}
+/* line 231, ../sass/style.scss */
+.show li:hover .mask {
+  top: 0;
+}
+/* line 236, ../sass/style.scss */
+.show li .mask {
+  display: block;
+  position: absolute;
+  top: -22em;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #3e3e3e;
+  opacity: .1;
+}
+/* line 247, ../sass/style.scss */
+.show li .information {
+  position: absolute;
+  background-color: #3e3e3e;
+  top: 22em;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .9;
+  transition: all .4s ease-in-out;
+  text-align: left;
+  padding: 0 1em;
+  box-sizing: border-box;
+  color: white;
+}
+/* line 261, ../sass/style.scss */
+.show li .information h3 {
+  font-size: 2em;
+  padding: 1em 0;
+}
+/* line 266, ../sass/style.scss */
+.show li .information .detail {
+  position: relative;
+  padding-top: 2em;
+}
+/* line 270, ../sass/style.scss */
+.show li .information .detail .avatar {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  bottom: 0;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+/* line 278, ../sass/style.scss */
+.show li .information .detail p {
+  padding: .5em 0 0 0;
+  font-size: 1.5em;
+}
+/* line 283, ../sass/style.scss */
+.show li .information .detail .contact {
+  margin-left: 4em;
+}
+/* line 286, ../sass/style.scss */
+.show li .information .detail .contact .name {
+  font-weight: bold;
+  margin-right: .5em;
+}
+/* line 291, ../sass/style.scss */
+.show li .information .detail .contact .role {
+  color: #eeeeee;
+}
+/* line 296, ../sass/style.scss */
+.show li .information .detail .like {
+  position: absolute;
+  font-size: 2em;
+  bottom: 0;
+  right: 0;
+  color: white;
+  background-color: #0ac285;
+  border: 1px solid #0ac285;
+  padding: .2em;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  transition: all .3s ease-in-out;
+}
+/* line 310, ../sass/style.scss */
+.show li .information .detail .like:hover {
+  color: #0ac285;
+  background-color: white;
+  border: 1px solid transparent;
+}
